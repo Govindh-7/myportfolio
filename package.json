@@ -10,6 +10,11 @@
 
   },
 
+  "engines": {
+  "node": "20"
+},
+
+
   "dependencies": {
 
     "@emotion/react": "^11.14.0",
@@ -44,9 +49,13 @@
 
     "@vitejs/plugin-react": "^4.3.4",
 
+    "rollup": "^4.34.8",
+
     "vite": "^6.1.0"
 
   }
+
+  
 
 }
 
