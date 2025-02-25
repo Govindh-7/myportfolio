@@ -1,0 +1,82 @@
+{
+  "hash": "103c3328",
+  "configHash": "cf91647c",
+  "lockfileHash": "395af1c8",
+  "browserHash": "34366c57",
+  "optimized": {
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "d34ed1d0",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "bbc44edb",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "3d3afe6e",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "55eed3c9",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "38b03281",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "4d523715",
+      "needsInterop": false
+    },
+    "use-sound": {
+      "src": "../../node_modules/use-sound/dist/use-sound.esm.js",
+      "file": "use-sound.js",
+      "fileHash": "789df4c2",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "vision_bundle-NVRH4MT4": {
+      "file": "vision_bundle-NVRH4MT4.js"
+    },
+    "howler-VYTWXBJZ": {
+      "file": "howler-VYTWXBJZ.js"
+    },
+    "chunk-QDKECPLW": {
+      "file": "chunk-QDKECPLW.js"
+    },
+    "chunk-6RRXJL6T": {
+      "file": "chunk-6RRXJL6T.js"
+    },
+    "chunk-6H6IX42F": {
+      "file": "chunk-6H6IX42F.js"
+    },
+    "chunk-ADRMSZ2G": {
+      "file": "chunk-ADRMSZ2G.js"
+    },
+    "chunk-W4EHDCLL": {
+      "file": "chunk-W4EHDCLL.js"
+    },
+    "hls-AAGQ45T2": {
+      "file": "hls-AAGQ45T2.js"
+    },
+    "chunk-T2F7LD4Q": {
+      "file": "chunk-T2F7LD4Q.js"
+    },
+    "chunk-EWTE5DHJ": {
+      "file": "chunk-EWTE5DHJ.js"
+    }
+  }
+}

@@ -1,0 +1,184 @@
+/* 🌊 Ocean Video Background */
+.ocean-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+
+/* ⚡ Lightning Effect */
+.lightning-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: -2;
+}
+
+/* 🌀 Haki Aura Effect */
+.haki-aura {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+/* 🏴‍☠️ Main Overlay */
+.intro-overlay {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* 🔥 Logo Animation */
+.logo-animation {
+  width: 12vw;
+  max-width: 150px;
+  filter: drop-shadow(0 0 10px yellow);
+}
+
+/* 🏴‍☠️ One Piece Typewriter Effect */
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.typewriter-text {
+  font-size: 4vw;
+  color: gold;
+  font-family: "Pirate One", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  border-right: 3px solid gold;
+  animation: typewriter 4s steps(20) infinite alternate;
+}
+/* 🔥 Updated Subtext Styles */
+.subtext {
+  font-size: 2.2vw; /* Slightly increased size for better readability */
+  font-weight: bold;
+  color: #000005; /* Unique coral color for a vibrant feel */
+  text-shadow: 2px 2px 8px rgba(248, 99, 216, 0.8); /* Glowing effect */
+  margin-top: 10px;
+  letter-spacing: 1px; /* Add spacing for better readability */
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Smooth transition */
+  overflow: hidden; /* Hide overflow for typewriter effect */
+  white-space: nowrap; /* Keep text in one line */
+  display: inline-block; /* Ensure the element behaves like a block */
+  animation: typewriter 4s steps(40) 1s forwards; /* Typewriter animation */
+  opacity: 0; /* Start invisible */
+}
+
+.subtext:hover {
+  color: #e70e0e; /* Change color on hover for interactivity */
+  text-shadow: 2px 2px 12px rgba(255, 204, 0, 0.9); /* Enhanced glow on hover */
+}
+
+/* Typewriter Animation */
+@keyframes typewriter {
+  from {
+    width: 0; /* Start with no width */
+    opacity: 1; /* Fade in */
+  }
+  to {
+    width: 100%; /* Expand to full width */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Delay for Each Subtext */
+.subtext:nth-child(1) {
+  animation-delay: 1s; /* First subtext starts after 1 second */
+}
+
+.subtext:nth-child(2) {
+  animation-delay: 5s; /* Second subtext starts after 5 seconds */
+}
+
+.subtext:nth-child(3) {
+  animation-delay: 9s; /* Third subtext starts after 9 seconds */
+}
+
+.subtext:nth-child(4) {
+  animation-delay: 13s; /* Fourth subtext starts after 13 seconds */
+}
+
+/* 🎨 Highlighted Keywords */
+.treasure-hunt {
+  color: #ff4500; /* Deep orange for a treasure hunt vibe */
+  text-shadow: 2px 2px 12px rgba(255, 140, 0, 0.9);
+}
+
+.grand-line {
+  color: #1e90ff; /* Vibrant blue representing the Grand Line ocean */
+  text-shadow: 2px 2px 12px rgba(30, 144, 255, 0.9);
+}
+
+.legend {
+  color: #32cd32; /* Lush green, representing legacy and growth */
+  text-shadow: 2px 2px 12px rgba(50, 205, 50, 0.9);
+}
+
+.devil-fruits {
+  color: #9400d3; /* Dark violet to resemble mysterious Devil Fruits */
+  text-shadow: 2px 2px 12px rgba(148, 0, 211, 0.9);
+}
+/* 🎵 Music Button */
+.music-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.8vw;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff4500, #ffcc00);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.music-btn:hover {
+  background: linear-gradient(to right, #ffcc00, #ff4500);
+  transform: scale(1.1);
+}
+
+/* 🏴‍☠️ Responsive Fixes */
+@media screen and (max-width: 768px) {
+  .typewriter-text {
+    font-size: 6vw;
+  }
+  .subtext {
+    font-size: 4vw;
+  }
+  .music-btn {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .typewriter-text {
+    font-size: 7vw;
+  }
+  .subtext {
+    font-size: 5vw;
+  }
+  .music-btn {
+    font-size: 3vw;
+  }
+}

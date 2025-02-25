@@ -1,0 +1,41 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+:root {
+  --one-piece-red: #B22222;
+  --one-piece-gold: #FFD700;
+  --one-piece-black: #000000;
+}
+/* index.css */
+body {
+  cursor: url('/assets/images/cursor.png'), auto;
+}
+
+body {
+  background-color: var(--one-piece-black);
+  color: var(--one-piece-gold);
+  font-family: 'Pirata One', cursive;
+}
+
+.pirate-font {
+  font-family: 'Pirata One', cursive;
+}
+
+.text-danger {
+  color: var(--one-piece-red) !important;
+}
+
+.text-warning {
+  color: var(--one-piece-gold) !important;
+}
+
+.btn-primary {
+  background-color: var(--one-piece-red) !important;
+  border: 2px solid var(--one-piece-gold) !important;
+  color: var(--one-piece-gold) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--one-piece-gold) !important;
+  color: var(--one-piece-red) !important;
+}
